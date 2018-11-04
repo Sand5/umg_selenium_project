@@ -3,7 +3,7 @@ using TechTalk.SpecFlow;
 using UniversalProject.ApplicationConfigurationReaders;
 using UniversalProject.DriverManager;
 using UniversalProject.ObjectRepositories;
-using UniversalProject.Pages;
+
 
 namespace UniversalProject.Hooks
 {
@@ -25,11 +25,11 @@ namespace UniversalProject.Hooks
                     ObjectRepository.Driver = DriverTypeManager.GetChromeDriver();
                     break;
 
-                default: throw new Exception("The Browser that you require is not vaild please check App.config file");
+                 default: throw new Exception("The Browser that you require is not vaild please check App.config file");
 
             }
 
-            ObjectRepository.LandingPage = new LandingPage(ObjectRepository.Driver);
+            
 
 
         }
