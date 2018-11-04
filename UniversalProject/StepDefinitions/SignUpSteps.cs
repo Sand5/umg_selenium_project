@@ -11,6 +11,7 @@ namespace UniversalProject.StepDefinitions
         [Given(@"I am not logged in")]
         public void GivenIAmNotLoggedIn()
         {
+            //Create an instance of the LandingPage object
             ObjectRepository.LandingPage = new LandingPage(ObjectRepository.Driver);
             
             //We navigate to the application site
