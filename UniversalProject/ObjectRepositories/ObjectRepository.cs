@@ -13,7 +13,7 @@ namespace UniversalProject.ObjectRepositories
         public static LandingPage LandingPage { get; set; }
         public static SignUpPage  SignUpPage { get; set; }
         public static UserHomePage UserHomePage { get; set; }
-        public static SettingsPage SettingsPage { get; set; }
+        
     }
 
 }

@@ -80,7 +80,6 @@
     <Compile Include="Interfaces\IConfigurationManager.cs" />
     <Compile Include="ObjectRepositories\ObjectRepository.cs" />
     <Compile Include="Pages\LandingPage.cs" />
-    <Compile Include="Pages\SettingsPage.cs" />
     <Compile Include="Pages\SignUpPage.cs" />
     <Compile Include="Pages\UserHomePage.cs" />
     <Compile Include="RandomData\RandomDataGenerator.cs" />

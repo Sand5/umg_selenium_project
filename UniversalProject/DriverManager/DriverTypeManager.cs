@@ -13,7 +13,7 @@ namespace UniversalProject.DriverManager
         {
             return new ChromeDriver(GetExcutable());
         }
-        
+
         //The GetExcutable method returns the location of the chromedriver.
         private static string GetExcutable()
         {

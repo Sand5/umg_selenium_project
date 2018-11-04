@@ -1,14 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace UniversalProject.RandamDataGenerator
 {
     public class RandomDataGenerator
     {
-        
+        //This method returns a random number of strings which represent numbers 1-9
         public static string GetNumericRandomData(int count)
         {
             //Create a string varibale to store some data.
@@ -29,6 +27,7 @@ namespace UniversalProject.RandamDataGenerator
 
         }
 
+        //This method returns a random number of strings 
         public static string GetAlphaRandomData(int count)
         {
             //Create a string varibale to store some data.
