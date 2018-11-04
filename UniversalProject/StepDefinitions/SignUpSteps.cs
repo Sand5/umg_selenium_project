@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TechTalk.SpecFlow;
 using UniversalProject.ObjectRepositories;
-
+using UniversalProject.Pages;
 
 namespace UniversalProject.StepDefinitions
 {
@@ -11,6 +11,8 @@ namespace UniversalProject.StepDefinitions
         [Given(@"I am not logged in")]
         public void GivenIAmNotLoggedIn()
         {
+            ObjectRepository.LandingPage = new LandingPage(ObjectRepository.Driver);
+            
             //We navigate to the application site
             ObjectRepository.LandingPage.NavigateToSite();
         }
